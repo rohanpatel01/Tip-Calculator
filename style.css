@@ -1,0 +1,23 @@
+.title {
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  .container-2{
+    text-align: center;
+    float: left;
+    width:50%;
+  }
+
+  .container-2 input, .container-3 input {
+    text-align: center;
+  }
+
+  .container-3{
+    display: inline-block;
+    text-align: center;
+    width:50%;
+}
+
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="enElementById">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></link>
+    <title>Tipping Calculator</title>
+</head>
+<body>
+    <!--  -->
+
+    
+
+
+    <div class = "title">
+        <h1>Tipping Calculator</h1>
+    </div>
+
+    <!-- Create the quiz and the recommended tip based on the quiz -->
+    <div class= "container-1"></div>
+
+
+
+<br>
+    <!-- Enter info and create button -->
+    <div class = container-2>
+        <h3>Initial Bill</h3>
+        <input id="initialBill" type="number" class="form-control">
+        <br>
+        <br>
+        <h3>Number of people</h3>
+
+        <div>
+  
+            <button onClick= "" id= "decrement">-</button>
+            <input id= "numPeople" type="number" class="form-control">
+            <button onClick= "" id= "increment">+</button>
+        </div>
+
+        <br>
+
+        <h3>Tip Percentage</h3>
+        <input id= "tipPercentage" type="number" class="form-control">
+
+        <br>
+        <br>
+
+        <div>
+            <button onclick= "calculateTip()">Calculate Tip</button>
+        </div>
+        
+        
+    </div>
+
+    <!--  show total tip and tip per person -->
+    <div class= "container-3">
+        <h3>Total Tip</h3>
+        <input id= "tip" type="number" class="form-control" disabled>
+
+        <h3>Tip per Person</h3>
+        <input id= "tipPerPerson" type="number" class="form-control" disabled>
+
+        <h3>Final Bill</h3>
+        <input id= "finalBill" type="number" class="form-control" disabled>
+
+        <h3>Final Bill per person</h3>
+        <input id= "finalBillPerPerson" type="number" class="form-control" disabled>
+
+    </div>
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>
